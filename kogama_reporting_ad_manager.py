@@ -23,8 +23,7 @@ report_service = client.GetService('ReportService', version='v201902')
 start_date = date(2018,1,1)
 end_date = date.today()
 
-report_job =
-{
+report_job = {
     'reportQuery':
     {
         'dimensions': ['DATE', 'DEVICE_CATEGORY_NAME', 'PLACEMENT_NAME'],
